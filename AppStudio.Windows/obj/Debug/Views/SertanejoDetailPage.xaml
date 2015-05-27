@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="AppStudio.Views.SertanejoDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppStudio.Views"
+    xmlns:controls="using:AppStudio.Controls"    
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:AppStudio.ViewModels"
+    mc:Ignorable="d">
+ 
+    <controls:YouTubeViewer x:Name="ytViewer" DataContext="{Binding SertanejoModel.SelectedItem}"
+                            d:DataContext="{Binding Items[0], Source={d:DesignData Source=/Assets/Data/SertanejoDataSource.json, Type=vm:SertanejoViewModel, IsDesignTimeCreatable=true}}"
+                            TitleText="{Binding Title}"
+                            SummaryText="{Binding Summary}"
+                            EmbedUrl="{Binding EmbedHtmlFragment}"/>
+        
+    <Page.BottomAppBar>
+        <CommandBar Background="{StaticResource AppBarBackground}" BorderBrush="{StaticResource AppBarBackground}" Foreground="{StaticResource AppBarForeground}">
+            <AppBarButton x:Uid="GoToSourceButton" Icon="Globe" DataContext="{Binding SertanejoModel}" Command="{Binding GoToSourceCommand}" Visibility="{Binding GoToSourceVisibility}"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
+

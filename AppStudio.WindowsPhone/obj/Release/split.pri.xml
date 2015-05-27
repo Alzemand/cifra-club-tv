@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="16020EdilsonAlzemand.CifraClubTV" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US, PT-BR</Language>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AppStudio.xr.xml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/AppStudio.xr.xml">
+				<Candidate type="Path">
+					<Value>AppStudio.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="ApplicationLogo.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/ApplicationLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\ApplicationLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/BadgeLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\BadgeLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="COMPUTIVA.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/COMPUTIVA.png">
+					<Candidate type="Path">
+						<Value>Assets\COMPUTIVA.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorImage.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/ErrorImage.png">
+					<Candidate type="Path">
+						<Value>Assets\ErrorImage.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Logo.png">
+					<Candidate type="Path">
+						<Value>Assets\Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/SplashScreen.png">
+					<Candidate type="Path">
+						<Value>Assets\SplashScreen.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Square310x310Logo.png">
+					<Candidate type="Path">
+						<Value>Assets\Square310x310Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Square71x71Logo.png">
+					<Candidate type="Path">
+						<Value>Assets\Square71x71Logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.scale.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/StoreLogo.scale.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.scale.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/WideLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\WideLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Data">
+					<NamedResource name="AulasAvancadasDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/AulasAvancadasDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\AulasAvancadasDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AulasDeBateriaDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/AulasDeBateriaDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\AulasDeBateriaDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AulasDeContrabaixoDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/AulasDeContrabaixoDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\AulasDeContrabaixoDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AulasDeGuitarraDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/AulasDeGuitarraDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\AulasDeGuitarraDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AulasFaceisDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/AulasFaceisDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\AulasFaceisDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AulasIntermediariasDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/AulasIntermediariasDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\AulasIntermediariasDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CifraClubNewsDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/CifraClubNewsDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\CifraClubNewsDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CifraClubTVDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/CifraClubTVDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\CifraClubTVDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MaisAcessadasDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/MaisAcessadasDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\MaisAcessadasDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MPBSambaBossaNovaDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/MPBSambaBossaNovaDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\MPBSambaBossaNovaDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PergunteAoProfessorDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/PergunteAoProfessorDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\PergunteAoProfessorDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ReviewsEEquipamentosDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/ReviewsEEquipamentosDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\ReviewsEEquipamentosDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="RockDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/RockDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\RockDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SertanejoDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/SertanejoDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\SertanejoDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TeoriasEDicasDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/TeoriasEDicasDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\TeoriasEDicasDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TopCifraClubDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/TopCifraClubDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\TopCifraClubDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="VideosDataSource.json" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/Data/VideosDataSource.json">
+						<Candidate type="Path">
+							<Value>Assets\Data\VideosDataSource.json</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="DataImages">
+					<NamedResource name="FlipSquareTile.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/FlipSquareTile.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\FlipSquareTile.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FlipWideTile.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/FlipWideTile.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\FlipWideTile.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-10.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-10.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-10.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-11.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-11.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-11.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-12.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-12.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-12.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-13.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-13.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-13.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-14.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-14.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-14.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-15.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-15.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-15.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-2.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-2.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-2.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-3.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-3.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-3.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-4.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-4.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-4.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-5.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-5.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-5.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-6.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-6.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-6.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-7.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-7.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-7.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-8.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-8.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-8.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ModuleLogo-9.png" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Assets/DataImages/ModuleLogo-9.png">
+						<Candidate type="Path">
+							<Value>Assets\DataImages\ModuleLogo-9.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Controls">
+				<NamedResource name="YouTubeViewer.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Controls/YouTubeViewer.xbf">
+					<Candidate type="Path">
+						<Value>Controls\YouTubeViewer.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Styles">
+				<NamedResource name="AppTheme.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Styles/AppTheme.xbf">
+					<Candidate type="Path">
+						<Value>Styles\AppTheme.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ButtonStyles.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Styles/ButtonStyles.xbf">
+					<Candidate type="Path">
+						<Value>Styles\ButtonStyles.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DefaultTheme.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Styles/DefaultTheme.xbf">
+					<Candidate type="Path">
+						<Value>Styles\DefaultTheme.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FontSizes.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Styles/FontSizes.xbf">
+					<Candidate type="Path">
+						<Value>Styles\FontSizes.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PlatformStyles.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Styles/PlatformStyles.xbf">
+					<Candidate type="Path">
+						<Value>Styles\PlatformStyles.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Views">
+				<NamedResource name="AboutThisAppPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AboutThisAppPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AboutThisAppPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasAvancadasDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasAvancadasDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasAvancadasDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasAvancadasPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasAvancadasPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasAvancadasPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasDeBateriaDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasDeBateriaDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasDeBateriaDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasDeBateriaPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasDeBateriaPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasDeBateriaPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasDeContrabaixoDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasDeContrabaixoDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasDeContrabaixoDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasDeContrabaixoPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasDeContrabaixoPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasDeContrabaixoPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasDeGuitarraDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasDeGuitarraDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasDeGuitarraDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasDeGuitarraPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasDeGuitarraPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasDeGuitarraPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasFaceisDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasFaceisDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasFaceisDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasFaceisPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasFaceisPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasFaceisPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasIntermediariasDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasIntermediariasDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasIntermediariasDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AulasIntermediariasPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/AulasIntermediariasPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AulasIntermediariasPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CifraClubNewsDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/CifraClubNewsDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\CifraClubNewsDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ImageViewer.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/ImageViewer.xbf">
+					<Candidate type="Path">
+						<Value>Views\ImageViewer.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MainPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/MainPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\MainPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MaisAcessadasDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/MaisAcessadasDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\MaisAcessadasDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MaisAcessadasPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/MaisAcessadasPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\MaisAcessadasPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MPBSambaBossaNovaDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/MPBSambaBossaNovaDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\MPBSambaBossaNovaDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MPBSambaBossaNovaPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/MPBSambaBossaNovaPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\MPBSambaBossaNovaPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PergunteAoProfessorDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/PergunteAoProfessorDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\PergunteAoProfessorDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PergunteAoProfessorPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/PergunteAoProfessorPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\PergunteAoProfessorPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Pesquisar.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/Pesquisar.xbf">
+					<Candidate type="Path">
+						<Value>Views\Pesquisar.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ReviewsEEquipamentosDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/ReviewsEEquipamentosDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\ReviewsEEquipamentosDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ReviewsEEquipamentosPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/ReviewsEEquipamentosPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\ReviewsEEquipamentosPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RockDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/RockDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\RockDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RockPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/RockPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\RockPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SertanejoDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/SertanejoDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\SertanejoDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SertanejoPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/SertanejoPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\SertanejoPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TeoriasEDicasDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/TeoriasEDicasDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\TeoriasEDicasDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TeoriasEDicasPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/TeoriasEDicasPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\TeoriasEDicasPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TopCifraClubDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/TopCifraClubDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\TopCifraClubDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TopCifraClubPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/TopCifraClubPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\TopCifraClubPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="VideosDetailPage.xbf" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/VideosDetailPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\VideosDetailPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="DataTemplates">
+					<NamedResource name="AulasAvancadasViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/AulasAvancadasViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\AulasAvancadasViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AulasDeBateriaViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/AulasDeBateriaViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\AulasDeBateriaViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AulasDeContrabaixoViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/AulasDeContrabaixoViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\AulasDeContrabaixoViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AulasDeGuitarraViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/AulasDeGuitarraViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\AulasDeGuitarraViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AulasFaceisViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/AulasFaceisViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\AulasFaceisViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AulasIntermediariasViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/AulasIntermediariasViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\AulasIntermediariasViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CifraClubNewsViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/CifraClubNewsViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\CifraClubNewsViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CifraClubTVViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/CifraClubTVViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\CifraClubTVViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MaisAcessadasViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/MaisAcessadasViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\MaisAcessadasViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MPBSambaBossaNovaViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/MPBSambaBossaNovaViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\MPBSambaBossaNovaViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PergunteAoProfessorViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/PergunteAoProfessorViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\PergunteAoProfessorViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ReviewsEEquipamentosViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/ReviewsEEquipamentosViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\ReviewsEEquipamentosViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="RockViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/RockViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\RockViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SertanejoViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/SertanejoViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\SertanejoViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TeoriasEDicasViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/TeoriasEDicasViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\TeoriasEDicasViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TopCifraClubViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/TopCifraClubViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\TopCifraClubViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="VideosViews.xaml" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Files/Views/DataTemplates/VideosViews.xaml">
+						<Candidate type="Path">
+							<Value>Views\DataTemplates\VideosViews.xaml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Xaml.Interactions">
+			<ResourceMapSubtree name="Strings">
+				<NamedResource name="CallMethodActionValidMethodNotFoundExceptionMessage" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactions/Strings/CallMethodActionValidMethodNotFoundExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot find method named {0} on object of type {1} that matches the expected signature.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotAttachBehaviorMultipleTimesExceptionMessage" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactions/Strings/CannotAttachBehaviorMultipleTimesExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>An instance of a behavior cannot be attached to more than one object at a time.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CannotFindEventNameExceptionMessage" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactions/Strings/CannotFindEventNameExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot find an event named {0} on type {1}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ChangePropertyActionCannotFindPropertyNameExceptionMessage" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactions/Strings/ChangePropertyActionCannotFindPropertyNameExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot find a property named {0} on type {1}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ChangePropertyActionCannotSetValueExceptionMessage" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactions/Strings/ChangePropertyActionCannotSetValueExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot assign value of type {0} to property {1} of type {2}. The {1} property can be assigned only values of type {2}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ChangePropertyActionPropertyIsReadOnlyExceptionMessage" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactions/Strings/ChangePropertyActionPropertyIsReadOnlyExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Property {0} defined by type {1} does not expose a set method and therefore cannot be modified.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EventNotSupportedExceptionMessage" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactions/Strings/EventNotSupportedExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Event {0} is not supported. Consider implementing a custom IBehavior to respond to this event.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="GoToStateActionTargetHasNoStateGroups" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactions/Strings/GoToStateActionTargetHasNoStateGroups">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Target {0} does not define any VisualStateGroups.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidLeftOperand" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactions/Strings/InvalidLeftOperand">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Binding property of type {0} cannot be used with operator {1}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidOperands" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactions/Strings/InvalidOperands">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Binding property of type {0} and Value property of type {1} cannot be used with operator {2}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidRightOperand" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactions/Strings/InvalidRightOperand">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Value property of type {0} cannot be used with operator {1}.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Xaml.Interactivity">
+			<ResourceMapSubtree name="Strings">
+				<NamedResource name="CannotAttachBehaviorMultipleTimesExceptionMessage" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactivity/Strings/CannotAttachBehaviorMultipleTimesExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>An instance of a behavior cannot be attached to more than one object at a time.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DuplicateBehaviorInCollectionExceptionMessage" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactivity/Strings/DuplicateBehaviorInCollectionExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Cannot add an instance of a behavior to a BehaviorCollection more than once.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NonActionAddedToActionCollectionExceptionMessage" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactivity/Strings/NonActionAddedToActionCollectionExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Only IAction types are supported in an ActionCollection.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NonBehaviorAddedToBehaviorCollectionExceptionMessage" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Microsoft.Xaml.Interactivity/Strings/NonBehaviorAddedToBehaviorCollectionExceptionMessage">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Only IBehavior types are supported in a BehaviorCollection.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<ResourceMapSubtree name="AboutButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/AboutButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>sobre</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>about</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="AboutFlyout">
+				<NamedResource name="Title" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/AboutFlyout/Title">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>Sobre</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>About</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="AboutSection">
+				<NamedResource name="Text" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/AboutSection/Text">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>sobre</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>about</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="AdvertisementSection">
+				<NamedResource name="Header" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/AdvertisementSection/Header">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>Anúncio</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>Advertisement</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="AppVersion">
+				<NamedResource name="Text" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/AppVersion/Text">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>Versão do aplicativo:</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>App version:</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="BigTextButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/BigTextButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>texto grande</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>big text</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DevelopedBy">
+				<NamedResource name="Text" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/DevelopedBy/Text">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>Desenvolvido por:</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>Developed by:</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FontSizeButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/FontSizeButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>tamanho da fonte</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>font size</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FullScreenButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/FullScreenButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>tela inteira</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>full screen</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="GoToSourceButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/GoToSourceButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>ir para fonte</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>go to source</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Html2XamlError">
+				<NamedResource name="Text" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/Html2XamlError/Text">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>Uma exceção ocorreu durante o processamento de seu HTML: {0}</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>An exception occurred while processing your HTML: {0}</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Html2XamlSourceHtml">
+				<NamedResource name="Text" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/Html2XamlSourceHtml/Text">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>Fonte de HTML:</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>Source HTML:</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="NoConnectionAvailable">
+				<NamedResource name="Text" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/NoConnectionAvailable/Text">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>O vídeo não pode ser mostrado porque não há nenhuma conexão disponível.</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>The video cannot be shown because there is no connection available.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="NormalTextButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/NormalTextButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>texto normal</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>normal text</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PinToStartButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/PinToStartButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>fixar na tela inicial</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>pin to start</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PrivacyButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/PrivacyButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>privacidade</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>privacy</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PrivacyFlyout">
+				<NamedResource name="Title" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/PrivacyFlyout/Title">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>Privacidade</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>Privacy</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="PrivacyTermsButton">
+				<NamedResource name="Text" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/PrivacyTermsButton/Text">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>Termos de privacidade</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>Privacy terms</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="RefreshButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/RefreshButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>atualizar</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>refresh</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="ShareItemButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/ShareItemButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>compartilhar</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>share</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SmallTextButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/SmallTextButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>texto pequeno</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>small text</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TextToSpeechButton">
+				<NamedResource name="Label" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/TextToSpeechButton/Label">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>ler</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>read</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TouchDevelopBy">
+				<NamedResource name="Text" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/TouchDevelopBy/Text">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>por</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>by</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="TouchDevelopPlay">
+				<NamedResource name="Text" uri="ms-resource://16020EdilsonAlzemand.CifraClubTV/Resources/TouchDevelopPlay/Text">
+					<Candidate qualifiers="Language-PT-BR" isDefault="true" type="String">
+						<Value>Reproduzir</Value>
+					</Candidate>
+					<Candidate type="String">
+						<Value>Play</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

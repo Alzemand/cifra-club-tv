@@ -1,0 +1,4 @@
+MainPackage=C:\Users\Edilson\Desktop\cifraclub1.9 final\AppStudio.WindowsPhone\bin\Release\AppStudio.WindowsPhone_1.1.9.13_Bundle\AppStudio.WindowsPhone_1.1.9.13_AnyCPU.appx
+SymbolPackage=C:\Users\Edilson\Desktop\cifraclub1.9 final\AppStudio.WindowsPhone\AppPackages\AppStudio.WindowsPhone_1.1.9.13_Test\AppStudio.WindowsPhone_1.1.9.13_AnyCPU.appxsym
+ResourcePack=C:\Users\Edilson\Desktop\cifraclub1.9 final\AppStudio.WindowsPhone\bin\Release\AppStudio.WindowsPhone_1.1.9.13_Bundle\AppStudio.WindowsPhone_1.1.9.13_scale-100.appx
+ResourcePack=C:\Users\Edilson\Desktop\cifraclub1.9 final\AppStudio.WindowsPhone\bin\Release\AppStudio.WindowsPhone_1.1.9.13_Bundle\AppStudio.WindowsPhone_1.1.9.13_scale-140.appx

@@ -1,0 +1,27 @@
+<Page
+    x:Class="AppStudio.Views.VideosDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppStudio.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:AppStudio.Controls"
+    xmlns:vm="using:AppStudio.ViewModels"
+    mc:Ignorable="d">
+
+    <controls:YouTubeViewer x:Name="ytViewer" DataContext="{Binding VideosModel.SelectedItem}"
+                            d:DataContext="{Binding Items[0], Source={d:DesignData Source=/Assets/Data/VideosDataSource.json, Type=vm:VideosViewModel, IsDesignTimeCreatable=true}}"
+                            TitleText="{Binding Title}"
+                            SummaryText="{Binding Summary}"
+                            EmbedUrl="{Binding EmbedHtmlFragment}"/>
+
+    <Page.BottomAppBar>
+        <CommandBar x:Name="AppBar" ClosedDisplayMode="Minimal" Background="{StaticResource AppBarBackground}" Foreground="{StaticResource AppBarForeground}" >
+            <AppBarButton x:Uid="TextToSpeechButton" Icon="Volume" DataContext="{Binding VideosModel}" Command="{Binding TextToSpeechCommand}" Visibility="{Binding TextToSpeechVisibility}"/>
+            <AppBarButton x:Uid="GoToSourceButton" Icon="Globe" DataContext="{Binding VideosModel}" Command="{Binding GoToSourceCommand}" Visibility="{Binding GoToSourceVisibility}"/>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Uid="ShareItemButton" Label="share item" DataContext="{Binding VideosModel}" Command="{Binding ShareItemCommand}" Visibility="{Binding ShareItemVisibility}"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

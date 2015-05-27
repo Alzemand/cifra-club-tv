@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="AppStudio.Views.AboutThisAppPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppStudio.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:AppStudio.Controls"
+    xmlns:html2xaml="using:AppStudio.Controls.Html2Xaml"
+    xmlns:vm="using:AppStudio.ViewModels"
+    mc:Ignorable="d"
+    Background="{StaticResource AppBackground}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border x:Name="HeaderHost" Grid.Row="0">
+            <ContentPresenter ContentTemplate="{StaticResource PageHeader}" />
+        </Border>
+
+        <TextBlock x:Uid="AboutSection" Margin="12,0" Grid.Row="1"  Text="about" Style="{StaticResource PageTitleStyle}" />
+
+        <Grid Grid.Row="2" DataContext="{Binding AboutModel}"
+              d:DataContext="{d:DesignInstance Type=vm:AboutThisAppViewModel, IsDesignTimeCreatable=true}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <ScrollViewer Grid.Row="0" Margin="12,20" Width="350" Height="400" VerticalAlignment="Top"
+                          HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                <RichTextBlock Style="{StaticResource RichDescriptionStyle}"
+                               html2xaml:Properties.Html="{Binding AboutText}" html2xaml:Properties.ContainsCrlf="True" TextWrapping="Wrap">
+
+
+
+                </RichTextBlock>
+            </ScrollViewer>
+
+            <TextBlock Grid.Row="1" Margin="12,24,12,0" FontSize="18" Style="{StaticResource DescriptionStyle}">
+                <Run x:Uid="AppVersion" Text="App version:"/>
+                <Run Text="{Binding AppVersion}" />
+            </TextBlock>
+
+            <TextBlock Grid.Row="2" Margin="12,0,12,12" FontSize="18" Style="{StaticResource DescriptionStyle}">
+                <Run x:Uid="DevelopedBy" Text="Developed by:" />
+                <Run Text="{Binding Publisher}"/>
+            </TextBlock>
+
+        </Grid>
+        <Image HorizontalAlignment="Left" Height="100" Grid.RowSpan="2" VerticalAlignment="Top" Width="100"/>
+        <Image Source="ms-appx:///Assets/COMPUTIVA.png" HorizontalAlignment="Center" Height="271" VerticalAlignment="Top" Width="308" Margin="44,120,48,0" Grid.Row="2"/>
+        <HyperlinkButton x:Name="Twitter" Content="Github" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="170,404,0,0" Grid.Row="2" Background="White" BorderBrush="White" Foreground="Black" NavigateUri="https://github.com/Alzemand"></HyperlinkButton>
+        <HyperlinkButton x:Name="Twitter_Copy" Content="Twitter" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,404,0,0" Grid.Row="2" Background="White" BorderBrush="White" Foreground="#FF2893DE" NavigateUri="https://twitter.com/alzemand"/>
+        <HyperlinkButton x:Name="estrelas" Content="Avalie" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="285,404,0,0" Grid.Row="2" Background="White" BorderBrush="White" Foreground="#FF837C7C" NavigateUri="zune:navigate?appid=b3de12b6-32b5-4d6d-8ab8-923081e0f027"></HyperlinkButton>
+
+    </Grid>
+
+</Page>
+

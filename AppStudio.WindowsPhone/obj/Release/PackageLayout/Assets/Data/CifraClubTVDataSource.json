@@ -1,0 +1,88 @@
+{
+  "Items": [
+    {
+      "Type": "Section",
+      "Title": "Aulas Fáceis",
+      "Icon": "/Assets/DataImages/ModuleLogo-7.png",
+      "Target": "AulasFaceisPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Aulas Intermediárias ",
+      "Icon": "/Assets/DataImages/ModuleLogo-8.png",
+      "Target": "AulasIntermediariasPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Aulas Avançadas ",
+      "Icon": "/Assets/DataImages/ModuleLogo-9.png",
+      "Target": "AulasAvancadasPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Aulas de Guitarra ",
+      "Icon": "/Assets/DataImages/ModuleLogo-2.png",
+      "Target": "AulasDeGuitarraPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Aulas de Contrabaixo",
+      "Icon": "/Assets/DataImages/ModuleLogo-14.png",
+      "Target": "AulasDeContrabaixoPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Aulas de Bateria ",
+      "Icon": "/Assets/DataImages/ModuleLogo-13.png",
+      "Target": "AulasDeBateriaPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Teorias e Dicas",
+      "Icon": "/Assets/DataImages/ModuleLogo-6.png",
+      "Target": "TeoriasEDicasPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Rock",
+      "Icon": "/Assets/DataImages/ModuleLogo-4.png",
+      "Target": "RockPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Pergunte ao Professor",
+      "Icon": "/Assets/DataImages/ModuleLogo-12.png",
+      "Target": "PergunteAoProfessorPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "MPB Samba Bossa Nova",
+      "Icon": "/Assets/DataImages/ModuleLogo-3.png",
+      "Target": "MPBSambaBossaNovaPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Reviews e Equipamentos",
+      "Icon": "/Assets/DataImages/ModuleLogo-11.png",
+      "Target": "ReviewsEEquipamentosPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Sertanejo",
+      "Icon": "/Assets/DataImages/ModuleLogo-5.png",
+      "Target": "SertanejoPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Top Cifra Club ",
+      "Icon": "/Assets/DataImages/ModuleLogo-10.png",
+      "Target": "TopCifraClubPage"
+    },
+    {
+      "Type": "Section",
+      "Title": "Mais Acessadas",
+      "Icon": "/Assets/DataImages/ModuleLogo-15.png",
+      "Target": "MaisAcessadasPage"
+    }
+  ]
+}

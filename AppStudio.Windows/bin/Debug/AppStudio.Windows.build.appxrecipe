@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EDI3G40-PC</Machine>
+    <WindowsUser>Edilson</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>16020EdilsonAlzemand.CifraClubTV</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\AppStudio.exe">
+      <PackagePath>AppStudio.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\Lib\AppStudio.Common.dll">
+      <PackagePath>AppStudio.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Data\bin\Debug\AppStudio.Data.dll">
+      <PackagePath>AppStudio.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\packages\HtmlAgilityPack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\packages\Newtonsoft.Json.6.0.6\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Data\bin\Debug\PCLStorage.Abstractions.dll">
+      <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Data\bin\Debug\PCLStorage.dll">
+      <PackagePath>PCLStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\StoreLogo.scale.png">
+      <PackagePath>Assets\StoreLogo.scale.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\Wide310x150Logo.png">
+      <PackagePath>Assets\Wide310x150Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\Square310x310Logo.png">
+      <PackagePath>Assets\Square310x310Logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\Square70x70Logo.png">
+      <PackagePath>Assets\Square70x70Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\ErrorImage.png">
+      <PackagePath>Assets\ErrorImage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\FlipSquareTile.png">
+      <PackagePath>Assets\DataImages\FlipSquareTile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\FlipWideTile.png">
+      <PackagePath>Assets\DataImages\FlipWideTile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-7.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-8.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-9.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-2.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-14.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-13.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-6.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-4.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-12.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-3.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-11.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-5.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-10.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-15.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\ApplicationLogo.png">
+      <PackagePath>Assets\ApplicationLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\CifraClubNewsViews.xaml">
+      <PackagePath>Views\DataTemplates\CifraClubNewsViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\VideosViews.xaml">
+      <PackagePath>Views\DataTemplates\VideosViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\CifraClubTVViews.xaml">
+      <PackagePath>Views\DataTemplates\CifraClubTVViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasDeGuitarraViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasDeGuitarraViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\MPBSambaBossaNovaViews.xaml">
+      <PackagePath>Views\DataTemplates\MPBSambaBossaNovaViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\RockViews.xaml">
+      <PackagePath>Views\DataTemplates\RockViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\SertanejoViews.xaml">
+      <PackagePath>Views\DataTemplates\SertanejoViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\TeoriasEDicasViews.xaml">
+      <PackagePath>Views\DataTemplates\TeoriasEDicasViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasFaceisViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasFaceisViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasIntermediariasViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasIntermediariasViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasAvancadasViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasAvancadasViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\TopCifraClubViews.xaml">
+      <PackagePath>Views\DataTemplates\TopCifraClubViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\ReviewsEEquipamentosViews.xaml">
+      <PackagePath>Views\DataTemplates\ReviewsEEquipamentosViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\PergunteAoProfessorViews.xaml">
+      <PackagePath>Views\DataTemplates\PergunteAoProfessorViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasDeBateriaViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasDeBateriaViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasDeContrabaixoViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasDeContrabaixoViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\MaisAcessadasViews.xaml">
+      <PackagePath>Views\DataTemplates\MaisAcessadasViews.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\CifraClubNewsDataSource.json">
+      <PackagePath>Assets\Data\CifraClubNewsDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\VideosDataSource.json">
+      <PackagePath>Assets\Data\VideosDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\CifraClubTVDataSource.json">
+      <PackagePath>Assets\Data\CifraClubTVDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasDeGuitarraDataSource.json">
+      <PackagePath>Assets\Data\AulasDeGuitarraDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\MPBSambaBossaNovaDataSource.json">
+      <PackagePath>Assets\Data\MPBSambaBossaNovaDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\RockDataSource.json">
+      <PackagePath>Assets\Data\RockDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\SertanejoDataSource.json">
+      <PackagePath>Assets\Data\SertanejoDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\TeoriasEDicasDataSource.json">
+      <PackagePath>Assets\Data\TeoriasEDicasDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasFaceisDataSource.json">
+      <PackagePath>Assets\Data\AulasFaceisDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasIntermediariasDataSource.json">
+      <PackagePath>Assets\Data\AulasIntermediariasDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasAvancadasDataSource.json">
+      <PackagePath>Assets\Data\AulasAvancadasDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\TopCifraClubDataSource.json">
+      <PackagePath>Assets\Data\TopCifraClubDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\ReviewsEEquipamentosDataSource.json">
+      <PackagePath>Assets\Data\ReviewsEEquipamentosDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\PergunteAoProfessorDataSource.json">
+      <PackagePath>Assets\Data\PergunteAoProfessorDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasDeBateriaDataSource.json">
+      <PackagePath>Assets\Data\AulasDeBateriaDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasDeContrabaixoDataSource.json">
+      <PackagePath>Assets\Data\AulasDeContrabaixoDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\MaisAcessadasDataSource.json">
+      <PackagePath>Assets\Data\MaisAcessadasDataSource.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Styles\AppTheme.xbf">
+      <PackagePath>Styles\AppTheme.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Styles\DefaultTheme.xbf">
+      <PackagePath>Styles\DefaultTheme.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Controls\YouTubeViewer.xbf">
+      <PackagePath>Controls\YouTubeViewer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AppFlyouts\AboutFlyout.xbf">
+      <PackagePath>Views\AppFlyouts\AboutFlyout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AppFlyouts\PrivacyFlyout.xbf">
+      <PackagePath>Views\AppFlyouts\PrivacyFlyout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\ImageViewer.xbf">
+      <PackagePath>Views\ImageViewer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeGuitarraPage.xbf">
+      <PackagePath>Views\AulasDeGuitarraPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MPBSambaBossaNovaPage.xbf">
+      <PackagePath>Views\MPBSambaBossaNovaPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\RockPage.xbf">
+      <PackagePath>Views\RockPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\SertanejoPage.xbf">
+      <PackagePath>Views\SertanejoPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TeoriasEDicasPage.xbf">
+      <PackagePath>Views\TeoriasEDicasPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasFaceisPage.xbf">
+      <PackagePath>Views\AulasFaceisPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasIntermediariasPage.xbf">
+      <PackagePath>Views\AulasIntermediariasPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasAvancadasPage.xbf">
+      <PackagePath>Views\AulasAvancadasPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TopCifraClubPage.xbf">
+      <PackagePath>Views\TopCifraClubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\ReviewsEEquipamentosPage.xbf">
+      <PackagePath>Views\ReviewsEEquipamentosPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\PergunteAoProfessorPage.xbf">
+      <PackagePath>Views\PergunteAoProfessorPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeBateriaPage.xbf">
+      <PackagePath>Views\AulasDeBateriaPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeContrabaixoPage.xbf">
+      <PackagePath>Views\AulasDeContrabaixoPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MaisAcessadasPage.xbf">
+      <PackagePath>Views\MaisAcessadasPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\CifraClubNewsList.xbf">
+      <PackagePath>Views\CifraClubNewsList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\CifraClubNewsDetailPage.xbf">
+      <PackagePath>Views\CifraClubNewsDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\VideosList.xbf">
+      <PackagePath>Views\VideosList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\VideosDetailPage.xbf">
+      <PackagePath>Views\VideosDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeGuitarraList.xbf">
+      <PackagePath>Views\AulasDeGuitarraList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MPBSambaBossaNovaList.xbf">
+      <PackagePath>Views\MPBSambaBossaNovaList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\RockList.xbf">
+      <PackagePath>Views\RockList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\SertanejoList.xbf">
+      <PackagePath>Views\SertanejoList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TeoriasEDicasList.xbf">
+      <PackagePath>Views\TeoriasEDicasList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasFaceisList.xbf">
+      <PackagePath>Views\AulasFaceisList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasIntermediariasList.xbf">
+      <PackagePath>Views\AulasIntermediariasList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasAvancadasList.xbf">
+      <PackagePath>Views\AulasAvancadasList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TopCifraClubList.xbf">
+      <PackagePath>Views\TopCifraClubList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\ReviewsEEquipamentosList.xbf">
+      <PackagePath>Views\ReviewsEEquipamentosList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\PergunteAoProfessorList.xbf">
+      <PackagePath>Views\PergunteAoProfessorList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeBateriaList.xbf">
+      <PackagePath>Views\AulasDeBateriaList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeContrabaixoList.xbf">
+      <PackagePath>Views\AulasDeContrabaixoList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MaisAcessadasList.xbf">
+      <PackagePath>Views\MaisAcessadasList.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeGuitarraDetailPage.xbf">
+      <PackagePath>Views\AulasDeGuitarraDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MPBSambaBossaNovaDetailPage.xbf">
+      <PackagePath>Views\MPBSambaBossaNovaDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\RockDetailPage.xbf">
+      <PackagePath>Views\RockDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\SertanejoDetailPage.xbf">
+      <PackagePath>Views\SertanejoDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TeoriasEDicasDetailPage.xbf">
+      <PackagePath>Views\TeoriasEDicasDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasFaceisDetailPage.xbf">
+      <PackagePath>Views\AulasFaceisDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasIntermediariasDetailPage.xbf">
+      <PackagePath>Views\AulasIntermediariasDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasAvancadasDetailPage.xbf">
+      <PackagePath>Views\AulasAvancadasDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TopCifraClubDetailPage.xbf">
+      <PackagePath>Views\TopCifraClubDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\ReviewsEEquipamentosDetailPage.xbf">
+      <PackagePath>Views\ReviewsEEquipamentosDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\PergunteAoProfessorDetailPage.xbf">
+      <PackagePath>Views\PergunteAoProfessorDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeBateriaDetailPage.xbf">
+      <PackagePath>Views\AulasDeBateriaDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeContrabaixoDetailPage.xbf">
+      <PackagePath>Views\AulasDeContrabaixoDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MaisAcessadasDetailPage.xbf">
+      <PackagePath>Views\MaisAcessadasDetailPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Styles\FontSizes.xbf">
+      <PackagePath>Styles\FontSizes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Styles\ButtonStyles.xbf">
+      <PackagePath>Styles\ButtonStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Styles\PlatformStyles.xbf">
+      <PackagePath>Styles\PlatformStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\AppStudio.xr.xml">
+      <PackagePath>AppStudio.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

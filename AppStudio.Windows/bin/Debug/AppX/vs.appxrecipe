@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>EDI3G40-PC</Machine>
+    <WindowsUser>Edilson</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>16020EdilsonAlzemand.CifraClubTV</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>5D7B066EA23F6AE9D02DE9C65EF74964A4B57255BEB1CAA9A4FD6AA6CFF35D01</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>16020EdilsonAlzemand.CifraClubTV_1.1.9.0_neutral__43tb5s87yn92g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>16020EdilsonAlzemand.CifraClubTV_43tb5s87yn92g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>16020EdilsonAlzemand.CifraClubTV</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=80F8FFBA-72B3-4B29-872E-A78330B5A5F2</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.9.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-28T01:20:37.313</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\AppStudio.exe">
+      <PackagePath>AppStudio.exe</PackagePath>
+      <Modified>2015-03-28T01:20:33.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-04-29T16:23:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-04-29T16:23:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\Lib\AppStudio.Common.dll">
+      <PackagePath>AppStudio.Common.dll</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Data\bin\Debug\AppStudio.Data.dll">
+      <PackagePath>AppStudio.Data.dll</PackagePath>
+      <Modified>2015-03-22T18:29:08.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\packages\HtmlAgilityPack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll">
+      <PackagePath>HtmlAgilityPack.dll</PackagePath>
+      <Modified>2015-03-22T15:36:46.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\packages\Newtonsoft.Json.6.0.6\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-03-22T15:36:49.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Data\bin\Debug\PCLStorage.Abstractions.dll">
+      <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
+      <Modified>2015-03-22T15:36:48.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Data\bin\Debug\PCLStorage.dll">
+      <PackagePath>PCLStorage.dll</PackagePath>
+      <Modified>2015-03-22T15:36:48.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\StoreLogo.scale.png">
+      <PackagePath>Assets\StoreLogo.scale.png</PackagePath>
+      <Modified>2015-03-22T18:49:12.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\Wide310x150Logo.png">
+      <PackagePath>Assets\Wide310x150Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\Square310x310Logo.png">
+      <PackagePath>Assets\Square310x310Logo.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\Square70x70Logo.png">
+      <PackagePath>Assets\Square70x70Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\ErrorImage.png">
+      <PackagePath>Assets\ErrorImage.png</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\FlipSquareTile.png">
+      <PackagePath>Assets\DataImages\FlipSquareTile.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\FlipWideTile.png">
+      <PackagePath>Assets\DataImages\FlipWideTile.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-7.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-7.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-8.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-8.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-9.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-9.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-2.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-2.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-14.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-14.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-13.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-13.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-6.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-6.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-4.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-4.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-12.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-12.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-3.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-3.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-11.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-11.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-5.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-5.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-10.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-10.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\DataImages\ModuleLogo-15.png">
+      <PackagePath>Assets\DataImages\ModuleLogo-15.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\ApplicationLogo.png">
+      <PackagePath>Assets\ApplicationLogo.png</PackagePath>
+      <Modified>2015-03-22T18:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\CifraClubNewsViews.xaml">
+      <PackagePath>Views\DataTemplates\CifraClubNewsViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\VideosViews.xaml">
+      <PackagePath>Views\DataTemplates\VideosViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\CifraClubTVViews.xaml">
+      <PackagePath>Views\DataTemplates\CifraClubTVViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasDeGuitarraViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasDeGuitarraViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\MPBSambaBossaNovaViews.xaml">
+      <PackagePath>Views\DataTemplates\MPBSambaBossaNovaViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\RockViews.xaml">
+      <PackagePath>Views\DataTemplates\RockViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\SertanejoViews.xaml">
+      <PackagePath>Views\DataTemplates\SertanejoViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\TeoriasEDicasViews.xaml">
+      <PackagePath>Views\DataTemplates\TeoriasEDicasViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasFaceisViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasFaceisViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasIntermediariasViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasIntermediariasViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasAvancadasViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasAvancadasViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\TopCifraClubViews.xaml">
+      <PackagePath>Views\DataTemplates\TopCifraClubViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\ReviewsEEquipamentosViews.xaml">
+      <PackagePath>Views\DataTemplates\ReviewsEEquipamentosViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\PergunteAoProfessorViews.xaml">
+      <PackagePath>Views\DataTemplates\PergunteAoProfessorViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasDeBateriaViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasDeBateriaViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\AulasDeContrabaixoViews.xaml">
+      <PackagePath>Views\DataTemplates\AulasDeContrabaixoViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\Views\DataTemplates\MaisAcessadasViews.xaml">
+      <PackagePath>Views\DataTemplates\MaisAcessadasViews.xaml</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\CifraClubNewsDataSource.json">
+      <PackagePath>Assets\Data\CifraClubNewsDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\VideosDataSource.json">
+      <PackagePath>Assets\Data\VideosDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\CifraClubTVDataSource.json">
+      <PackagePath>Assets\Data\CifraClubTVDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasDeGuitarraDataSource.json">
+      <PackagePath>Assets\Data\AulasDeGuitarraDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\MPBSambaBossaNovaDataSource.json">
+      <PackagePath>Assets\Data\MPBSambaBossaNovaDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\RockDataSource.json">
+      <PackagePath>Assets\Data\RockDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\SertanejoDataSource.json">
+      <PackagePath>Assets\Data\SertanejoDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\TeoriasEDicasDataSource.json">
+      <PackagePath>Assets\Data\TeoriasEDicasDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasFaceisDataSource.json">
+      <PackagePath>Assets\Data\AulasFaceisDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasIntermediariasDataSource.json">
+      <PackagePath>Assets\Data\AulasIntermediariasDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasAvancadasDataSource.json">
+      <PackagePath>Assets\Data\AulasAvancadasDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\TopCifraClubDataSource.json">
+      <PackagePath>Assets\Data\TopCifraClubDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\ReviewsEEquipamentosDataSource.json">
+      <PackagePath>Assets\Data\ReviewsEEquipamentosDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\PergunteAoProfessorDataSource.json">
+      <PackagePath>Assets\Data\PergunteAoProfessorDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasDeBateriaDataSource.json">
+      <PackagePath>Assets\Data\AulasDeBateriaDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\AulasDeContrabaixoDataSource.json">
+      <PackagePath>Assets\Data\AulasDeContrabaixoDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Shared\Assets\Data\MaisAcessadasDataSource.json">
+      <PackagePath>Assets\Data\MaisAcessadasDataSource.json</PackagePath>
+      <Modified>2015-03-22T18:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Styles\AppTheme.xbf">
+      <PackagePath>Styles\AppTheme.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Styles\DefaultTheme.xbf">
+      <PackagePath>Styles\DefaultTheme.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Controls\YouTubeViewer.xbf">
+      <PackagePath>Controls\YouTubeViewer.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AppFlyouts\AboutFlyout.xbf">
+      <PackagePath>Views\AppFlyouts\AboutFlyout.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AppFlyouts\PrivacyFlyout.xbf">
+      <PackagePath>Views\AppFlyouts\PrivacyFlyout.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\ImageViewer.xbf">
+      <PackagePath>Views\ImageViewer.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeGuitarraPage.xbf">
+      <PackagePath>Views\AulasDeGuitarraPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MPBSambaBossaNovaPage.xbf">
+      <PackagePath>Views\MPBSambaBossaNovaPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\RockPage.xbf">
+      <PackagePath>Views\RockPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\SertanejoPage.xbf">
+      <PackagePath>Views\SertanejoPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TeoriasEDicasPage.xbf">
+      <PackagePath>Views\TeoriasEDicasPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasFaceisPage.xbf">
+      <PackagePath>Views\AulasFaceisPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasIntermediariasPage.xbf">
+      <PackagePath>Views\AulasIntermediariasPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasAvancadasPage.xbf">
+      <PackagePath>Views\AulasAvancadasPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TopCifraClubPage.xbf">
+      <PackagePath>Views\TopCifraClubPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\ReviewsEEquipamentosPage.xbf">
+      <PackagePath>Views\ReviewsEEquipamentosPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\PergunteAoProfessorPage.xbf">
+      <PackagePath>Views\PergunteAoProfessorPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeBateriaPage.xbf">
+      <PackagePath>Views\AulasDeBateriaPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeContrabaixoPage.xbf">
+      <PackagePath>Views\AulasDeContrabaixoPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MaisAcessadasPage.xbf">
+      <PackagePath>Views\MaisAcessadasPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\CifraClubNewsList.xbf">
+      <PackagePath>Views\CifraClubNewsList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\CifraClubNewsDetailPage.xbf">
+      <PackagePath>Views\CifraClubNewsDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\VideosList.xbf">
+      <PackagePath>Views\VideosList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\VideosDetailPage.xbf">
+      <PackagePath>Views\VideosDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeGuitarraList.xbf">
+      <PackagePath>Views\AulasDeGuitarraList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MPBSambaBossaNovaList.xbf">
+      <PackagePath>Views\MPBSambaBossaNovaList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\RockList.xbf">
+      <PackagePath>Views\RockList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\SertanejoList.xbf">
+      <PackagePath>Views\SertanejoList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TeoriasEDicasList.xbf">
+      <PackagePath>Views\TeoriasEDicasList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasFaceisList.xbf">
+      <PackagePath>Views\AulasFaceisList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasIntermediariasList.xbf">
+      <PackagePath>Views\AulasIntermediariasList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasAvancadasList.xbf">
+      <PackagePath>Views\AulasAvancadasList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TopCifraClubList.xbf">
+      <PackagePath>Views\TopCifraClubList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\ReviewsEEquipamentosList.xbf">
+      <PackagePath>Views\ReviewsEEquipamentosList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\PergunteAoProfessorList.xbf">
+      <PackagePath>Views\PergunteAoProfessorList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeBateriaList.xbf">
+      <PackagePath>Views\AulasDeBateriaList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeContrabaixoList.xbf">
+      <PackagePath>Views\AulasDeContrabaixoList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MaisAcessadasList.xbf">
+      <PackagePath>Views\MaisAcessadasList.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeGuitarraDetailPage.xbf">
+      <PackagePath>Views\AulasDeGuitarraDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MPBSambaBossaNovaDetailPage.xbf">
+      <PackagePath>Views\MPBSambaBossaNovaDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\RockDetailPage.xbf">
+      <PackagePath>Views\RockDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\SertanejoDetailPage.xbf">
+      <PackagePath>Views\SertanejoDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TeoriasEDicasDetailPage.xbf">
+      <PackagePath>Views\TeoriasEDicasDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasFaceisDetailPage.xbf">
+      <PackagePath>Views\AulasFaceisDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasIntermediariasDetailPage.xbf">
+      <PackagePath>Views\AulasIntermediariasDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasAvancadasDetailPage.xbf">
+      <PackagePath>Views\AulasAvancadasDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\TopCifraClubDetailPage.xbf">
+      <PackagePath>Views\TopCifraClubDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\ReviewsEEquipamentosDetailPage.xbf">
+      <PackagePath>Views\ReviewsEEquipamentosDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\PergunteAoProfessorDetailPage.xbf">
+      <PackagePath>Views\PergunteAoProfessorDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeBateriaDetailPage.xbf">
+      <PackagePath>Views\AulasDeBateriaDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\AulasDeContrabaixoDetailPage.xbf">
+      <PackagePath>Views\AulasDeContrabaixoDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Views\MaisAcessadasDetailPage.xbf">
+      <PackagePath>Views\MaisAcessadasDetailPage.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Styles\FontSizes.xbf">
+      <PackagePath>Styles\FontSizes.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Styles\ButtonStyles.xbf">
+      <PackagePath>Styles\ButtonStyles.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\Styles\PlatformStyles.xbf">
+      <PackagePath>Styles\PlatformStyles.xbf</PackagePath>
+      <Modified>2015-03-28T01:20:31.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\AppStudio.xr.xml">
+      <PackagePath>AppStudio.xr.xml</PackagePath>
+      <Modified>2015-03-28T01:20:30.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-03-28T01:20:36.474</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

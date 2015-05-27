@@ -1,0 +1,2 @@
+C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Data\AppStudio.Data.csproj;neutral
+C:\Users\Edilson\Documents\Aplicativos\cifraclub1.9 final\AppStudio.Windows\AppStudio.Windows.csproj;neutral

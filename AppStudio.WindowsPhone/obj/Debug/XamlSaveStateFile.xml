@@ -1,0 +1,14 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\edilson\desktop\cifraclub1.9 final\appstudio.windowsphone\obj\debug\intermediatexaml\appstudio.exe" HashGuid="55a1e8f0-f68f-bc85-bc6f-bc10972b365f" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.advertising.mobile.display\8.1\references\commonconfiguration\neutral\microsoft.advertising.mobile.common.winmd" HashGuid="67667542-2ed0-db4a-d191-3e7623df243e" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.advertising.mobile.display\8.1\references\commonconfiguration\neutral\microsoft.advertising.mobile.display.winmd" HashGuid="cc0fb2e7-7a64-f70e-2997-2ad4fbf1cad0" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.advertising.mobile.display\8.1\references\commonconfiguration\neutral\microsoft.advertising.mobile.ui.winmd" HashGuid="b3d8dc37-2e80-b28f-127b-3083e011fcaf" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
+    <ReferenceAssembly PathName="c:\users\edilson\documents\aplicativos\cifraclub1.9 final\lib\appstudio.common.dll" HashGuid="11133f9f-b8b1-3b48-7126-b5e28bf7f658" />
+    <ReferenceAssembly PathName="c:\users\edilson\documents\aplicativos\cifraclub1.9 final\appstudio.data\bin\debug\appstudio.data.dll" HashGuid="53d32943-9784-b2ac-c6a8-f3b41709543a" />
+    <ReferenceAssembly PathName="c:\users\edilson\documents\aplicativos\cifraclub1.9 final\packages\htmlagilitypack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+monoandroid+monotouch\htmlagilitypack.dll" HashGuid="365e4636-8cbf-8d2d-3790-d3267e801443" />
+    <ReferenceAssembly PathName="c:\users\edilson\documents\aplicativos\cifraclub1.9 final\packages\newtonsoft.json.6.0.6\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="9e796421-3b84-3ec5-6e39-cb6d41d020b7" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,55 @@
+<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppStudio.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:AppStudio.ViewModels"
+    xmlns:UI="using:Microsoft.Advertising.Mobile.UI"
+    x:Class="AppStudio.Views.CifraClubNewsDetail"
+    mc:Ignorable="d">
+
+    <Page.BottomAppBar>
+        <CommandBar ClosedDisplayMode="Minimal" Background="{StaticResource AppBarBackground}" Foreground="{StaticResource AppBarForeground}">
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Uid="ShareItemButton" DataContext="{Binding CifraClubNewsModel}" Command="{Binding ShareItemCommand}" Visibility="{Binding ShareItemVisibility}"/>
+                <AppBarButton x:Uid="SmallTextButton" DataContext="{Binding CifraClubNewsModel}" Command="{Binding ChangeFontSizeCommand}" CommandParameter="Small"/>
+                <AppBarButton x:Uid="NormalTextButton" DataContext="{Binding CifraClubNewsModel}" Command="{Binding ChangeFontSizeCommand}" CommandParameter="Normal"/>
+                <AppBarButton x:Uid="BigTextButton" DataContext="{Binding CifraClubNewsModel}" Command="{Binding ChangeFontSizeCommand}" CommandParameter="Big"/>
+            </CommandBar.SecondaryCommands>
+            <AppBarButton x:Uid="TextToSpeechButton" Icon="Volume" DataContext="{Binding CifraClubNewsModel}" Command="{Binding TextToSpeechCommand}" Visibility="{Binding TextToSpeechVisibility}"/>
+            <AppBarButton x:Uid="RefreshButton" Icon="Refresh" DataContext="{Binding CifraClubNewsModel}" Command="{Binding RefreshCommand}" Visibility="{Binding RefreshVisibility}"/>
+            <AppBarButton x:Uid="GoToSourceButton" Icon="Globe" DataContext="{Binding CifraClubNewsModel}" Command="{Binding GoToSourceCommand}" Visibility="{Binding GoToSourceVisibility}"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid Background="{StaticResource AppBackground}"
+		DataContext="{Binding CifraClubNewsModel}"
+		d:DataContext="{d:DesignData IsDesignTimeCreatable=true, Source=/Assets/Data/CifraClubNewsDataSource.json, Type=vm:CifraClubNewsViewModel}">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+
+        <FlipView x:Name="Flip" Grid.Row="0" AutomationProperties.AutomationId="ItemsFlipView" AutomationProperties.Name="Item Details" TabIndex="1"
+			ItemsSource="{Binding Items}"
+			ItemTemplate="{StaticResource CifraClubNews1DetailDetail}"
+			SelectedItem="{Binding SelectedItem, Mode=TwoWay}"/>
+
+
+        <UI:AdControl Grid.Row="1" Margin="0,-1,0,-1" Padding="0,0,0,0" AutoRefreshIntervalInSeconds="60"
+                       HorizontalAlignment="Center" Height="78" IsAutoRefreshEnabled="True" VerticalAlignment="Top" Width="400"
+                       ApplicationId="3db142c7-f5c3-4c7b-b8af-6a0c9a50b11d"
+                       AdUnitId="195827" IsBackgroundTransparent="True"/>
+
+
+    </Grid>
+
+</Page>

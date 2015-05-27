@@ -1,0 +1,67 @@
+<Application
+    x:Class="AppStudio.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppStudio"
+    xmlns:controls="using:AppStudio.Controls"
+    xmlns:common="using:AppStudio.Common"
+    xmlns:localData="using:Shared"
+    xmlns:html2xaml="using:AppStudio.Controls.Html2Xaml"
+    xmlns:commands="using:AppStudio.Commands">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Default" Source="Styles/DefaultTheme.xaml"/>
+            </ResourceDictionary.ThemeDictionaries>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/FontSizes.xaml"/>
+                <ResourceDictionary Source="Styles/AppTheme.xaml"/>
+                <ResourceDictionary Source="Styles/ButtonStyles.xaml"/>
+                <ResourceDictionary Source="Styles/PlatformStyles.xaml"/>
+                <!-- Application DataTemplate imports -->
+                <ResourceDictionary Source="Views/DataTemplates/CifraClubNewsViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/VideosViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/CifraClubTVViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/AulasDeGuitarraViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/MPBSambaBossaNovaViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/RockViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/SertanejoViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/TeoriasEDicasViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/AulasFaceisViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/AulasIntermediariasViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/AulasAvancadasViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/TopCifraClubViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/ReviewsEEquipamentosViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/PergunteAoProfessorViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/AulasDeBateriaViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/AulasDeContrabaixoViews.xaml"/>
+                <ResourceDictionary Source="Views/DataTemplates/MaisAcessadasViews.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <x:String x:Key="AppName">Cifra Club TV</x:String>
+            <x:String x:Key="AppTitle">Cifra Club TV</x:String>
+
+            <!-- Html2Xaml -->
+            <html2xaml:Properties x:Key="Properties"/>
+
+            <!-- VariableSizedGrid -->
+            <controls:VariableSizedGrid x:Key="VariableSizedGrid"/>
+            <controls:RichTextColumns x:Key="RichTextColumns"/>
+
+            <!-- ItemClickCommand -->
+            <commands:ItemClickCommand x:Key="ItemClickCommand" />
+
+            <!-- Converters -->
+            <controls:VisibilityConverter x:Key="VisibilityConverter"/>
+            <controls:StringVisibilityConverter x:Key="StringVisibilityConverter"/>
+            <controls:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+            <controls:GridLengthConverter x:Key="GridLengthConverter"/>
+
+            <!-- Action Commands -->
+            <local:ActionCommands x:Key="ActionCommands"/>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-it"
+"ResourceDimensions"		"language-it-it"
+
+[Files]
+"C:\Users\Edilson\Desktop\cifraclub1.9 final\AppStudio.WindowsPhone\obj\Release\split.language-it.pri"			"resources.pri"

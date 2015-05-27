@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="AppStudio.Views.Pesquisar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppStudio.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:AppStudio.Controls"
+    xmlns:html2xaml="using:AppStudio.Controls.Html2Xaml"
+    xmlns:vm="using:AppStudio.ViewModels"
+    mc:Ignorable="d"
+    Background="{StaticResource AppBackground}">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Icon="Refresh" Label="Recarregar" Click="AppBarButton_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border x:Name="HeaderHost" Grid.Row="0">
+            <ContentPresenter ContentTemplate="{StaticResource PageHeader}" />
+        </Border>
+
+        <TextBox HorizontalAlignment="Center" Margin="72,170,84,0" Grid.Row="2" TextWrapping="Wrap" Text="Carregando,  por favor aguarde..." VerticalAlignment="Top" TextAlignment="Center" TextChanged="TextBox_TextChanged_1" Background="White" Foreground="Black" FontSize="22" Width="244"/>
+        <WebView x:Name="webView1" Grid.RowSpan="3" Margin="0,-28,0,-0.111" />
+
+    </Grid>
+</Page>

@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\edilson\desktop\cifraclub1.9 final\appstudio.windowsphone\obj\release\intermediatexaml\appstudio.exe" HashGuid="d33e0732-9260-9427-2a3a-cdb885a64392" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
+    <ReferenceAssembly PathName="c:\users\edilson\desktop\cifraclub1.9 final\lib\appstudio.common.dll" HashGuid="11133f9f-b8b1-3b48-7126-b5e28bf7f658" />
+    <ReferenceAssembly PathName="c:\users\edilson\desktop\cifraclub1.9 final\appstudio.data\bin\release\appstudio.data.dll" HashGuid="b5d136e7-904f-b8e3-4f95-a08223a82666" />
+    <ReferenceAssembly PathName="c:\users\edilson\desktop\cifraclub1.9 final\packages\htmlagilitypack.1.4.9\lib\portable-net45+netcore45+wpa81+wp8+monoandroid+monotouch\htmlagilitypack.dll" HashGuid="365e4636-8cbf-8d2d-3790-d3267e801443" />
+    <ReferenceAssembly PathName="c:\users\edilson\desktop\cifraclub1.9 final\packages\newtonsoft.json.6.0.6\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="9e796421-3b84-3ec5-6e39-cb6d41d020b7" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
